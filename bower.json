@@ -1,0 +1,30 @@
+{
+  "name": "sbercoincore-lib",
+  "main": "./sbercoincore-lib.min.js",
+  "version": "0.0.1",
+  "homepage": "https://sbercoin.com",
+  "authors": [
+    "Sbercoin.com <hello@sbercoin.com>"
+  ],
+  "description": "A pure, powerful core for your Sbercoin.com project.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "btc",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
