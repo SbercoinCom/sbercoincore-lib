@@ -4688,12 +4688,12 @@ addNetwork({
   pubkeyhash: 0x3f,
   privatekey: 0x3c,
   scripthash: 0x1a,
-  bech32prefix: 'sber',
   xpubkey: 0x0488b21e,
   xprivkey: 0x0488ade4,
   networkMagic: 0x53424552,
   port: 1841,
   dnsSeeds: [
+
   ]
 });
 
@@ -4709,13 +4709,8 @@ addNetwork({
   pubkeyhash: 0x7d,
   privatekey: 0x7a,
   scripthash: 0x55,
-  bech32prefix: 'tsber',
   xpubkey: 0x043587cf,
   xprivkey: 0x04358394,
-  networkMagic: 0x73626572,
-  port: 11841,
-  dnsSeeds: [
-  ]
 });
 
 /**
@@ -4727,7 +4722,7 @@ var testnet = get('testnet');
 // Add configurable values for testnet/regtest
 
 var TESTNET = {
-  PORT: 11841,
+  PORT: 11847,
   NETWORK_MAGIC: BufferUtil.integerAsBuffer(0x73626572),
   DNS_SEEDS: [
 
